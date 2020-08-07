@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40">
+  <g id="youtube" transform="translate(-121.656 -43)">
+    <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(121.656 43)" stroke="#fec82a" stroke-width="2">
+      <rect width="41" height="40" rx="5" stroke="none"/>
+      <rect x="1" y="1" width="39" height="38" rx="4" fill="none"/>
+    </g>
+    <path id="youtube-brands" d="M47.4,67.648a4.166,4.166,0,0,0-2.931-2.95C41.88,64,31.512,64,31.512,64s-10.369,0-12.954.7a4.166,4.166,0,0,0-2.931,2.95,46.91,46.91,0,0,0,0,16.065,4.1,4.1,0,0,0,2.931,2.9c2.586.7,12.954.7,12.954.7s10.369,0,12.954-.7a4.1,4.1,0,0,0,2.931-2.9,46.91,46.91,0,0,0,0-16.065ZM28.121,80.611V70.75l8.666,4.93-8.666,4.93Z" transform="translate(110.566 -12.579)" fill="#fec82a"/>
+  </g>
+</svg>

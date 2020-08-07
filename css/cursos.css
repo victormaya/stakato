@@ -1,0 +1,36 @@
+/*introdução*/
+.introducao-cursos{
+    margin-top: 80px;
+    width: 100%;
+    height: 160px;
+    background: url(../assets/cursos/capa/fundo.svg);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.introducao-cursos h2{
+    color:white;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px;
+    margin-top: 54px;
+}
+
+.introducao-cursos h2::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    margin: 10px auto;
+}
+
+/*cards-cursos*/
+
+.card-grande{
+    margin: 20px 0 30px 0;
+}
+
+
+

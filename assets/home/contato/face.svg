@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40">
+  <g id="face" transform="translate(0.344 -43)">
+    <g id="Rectangle_6" data-name="Rectangle 6" transform="translate(-0.344 43)" stroke="#fec82a" stroke-width="2">
+      <rect width="41" height="40" rx="5" stroke="none"/>
+      <rect x="1" y="1" width="39" height="38" rx="4" fill="none"/>
+    </g>
+    <path id="facebook-f-brands" d="M38.629,17.689,39.5,12H34.041V8.3c0-1.557.763-3.075,3.209-3.075h2.483V.384A30.274,30.274,0,0,0,35.326,0c-4.5,0-7.437,2.726-7.437,7.66V12h-5v5.691h5V31.447h6.152V17.689Z" transform="translate(-11.234 47)" fill="#fec82a"/>
+  </g>
+</svg>
