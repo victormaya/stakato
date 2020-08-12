@@ -48,8 +48,9 @@ h3{
 }
 
 /*Header*/
+
 .header{
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     background-color: #fec63e;
@@ -94,7 +95,7 @@ h3{
 /*introdução*/
 
 .introducao{
-    margin-top: 80px;
+    /* margin-top: 80px; */
     width: 100%;
     height: 380px;
     background: url(../assets/home/introducao/capa.svg);
