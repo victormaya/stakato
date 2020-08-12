@@ -1,0 +1,140 @@
+
+/* para tablet */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* HOME */
+  .header{
+    position: relative;
+    
+  }
+
+  .introducao, .introducao-cursos, .introducao-contato{
+    margin-top: 0;
+    
+  }
+
+  .introducao h1{
+    padding-top: 125px;
+    
+  }
+  .cursos ul li{
+    margin: 0 auto;
+  }
+  .cursos ul .grid-5{
+    width: auto;
+  }
+
+  .contato .img-redes li, .secao-contato .img-redes li{
+    margin-right: 5px;
+
+  }
+
+  .cursos ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cursos ul .meio{
+    margin: 0px auto;
+  }
+
+}
+
+
+
+/* para celular */
+@media only screen and (max-width: 787px) {
+
+  .introducao, .introducao-cursos, .introducao-contato{
+    margin-top: 0;
+    
+  }
+
+  
+  .introducao h1{
+    padding-top: 95px;
+    
+  }
+  .header {
+    height: 145px;
+    position: relative;
+  }
+  .header .logo{
+    display: block;
+    text-align: center;
+  }
+  .header_menu{
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 0 5px;
+  }
+
+  .cursos ul li{
+    margin: 0 auto;
+  }
+  .cursos ul .grid-5{
+    width: auto;
+  }
+
+  .cursos ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cursos ul .meio{
+    margin: 0px auto;
+  }
+
+  .cursos .callBtn .btn{
+    margin: 0 auto;
+  }
+
+  .contato ul{
+    padding: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  .contato h2{
+    margin-top: 10px;
+
+  }
+
+  .contato .img-redes, .secao-contato .img-redes{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+  }
+  .visible{
+    position: absolute;
+  }
+  .contato .img-redes ul, .secao-contato .img-redes ul{
+    margin-top: 0;
+
+  }
+  .contato .img-redes li, .secao-contato .img-redes li{
+    margin-right: 5px;
+
+  }
+  
+  .marca{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    background-color: #fec63e ;
+  }
+
+  .marca .reservado .grid-12, .marca .reservado .grid-4, .marca .reservado .grid-16{
+    text-align: center;
+    margin: 10px 0;
+    width: auto;
+  }
+    
+  
+  
+
+}
+
