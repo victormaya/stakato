@@ -55,7 +55,7 @@ h3{
     width: 100%;
     background-color: #fec63e;
     z-index: 10;
-    height: 80px;
+    height: 60px;
 }
 
 .header .logo{
@@ -71,7 +71,7 @@ h3{
 .header_menu ul li{
     display: inline-block;
     margin-left: 25px;
-    margin-top: 28px;
+    margin-top: 20px;
     
     
 }
