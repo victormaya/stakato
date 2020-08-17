@@ -140,13 +140,15 @@ h3{
     margin-bottom: 40px;
 }
 
+.cursos ul{
+    display: flex;
+    justify-content: center;
+  }
+
 .cursos ul li{
-    margin: 20px 0;
+    margin: 20px 10px;
 }
 
-.cursos ul .meio{
-    margin: 20px 60px;
-}
 
 .cursos p{
     text-align: center;
