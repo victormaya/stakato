@@ -147,6 +147,7 @@ h3{
 
 .cursos ul li{
     margin: 20px 10px;
+    
 }
 
 
@@ -218,6 +219,12 @@ h3{
     background-color: black;
     margin: 8px 0;
 }
+
+#tipos-contato{
+    margin: 0 60px;
+}
+
+
 
 .contato p{
     line-height: 20px;
