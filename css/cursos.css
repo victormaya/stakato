@@ -28,9 +28,66 @@
 
 /*cards-cursos*/
 
-.card-grande{
-    margin: 20px 0 30px 0;
+#painel{
+    border-radius: 25px;
+    background-color:#fec63e;
+    height: auto;
+    padding: 15px 62px;
+    margin-bottom: 30px;;
+
+}
+
+.desc-curso{
+    display: flex;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.conteudo-curso{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 577px;
+    height: 180px;
+    background-color: black;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.title-curso{
+    color: #fec63e;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.text-curso{
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
 }
 
 
+/* animações */
 
+[data-anime] {
+    opacity: 0;
+  }
+  
+  /* 7 CSS personalizado dependendo da animação desejada */
+  .fadeInDown {
+    transform: translate3d(0,-20px,0);
+  }
+  .fadeInUp {
+    transform: translate3d(0,20px,0);
+  }
+  .fadeInRight {
+    transform: translate3d(20px,0,0);
+  }
+  .fadeInLeft {
+    transform: translate3d(-20px,0,0);
+  }
+
+  .anime {
+    opacity: 1;
+    transform: none;
+  }
