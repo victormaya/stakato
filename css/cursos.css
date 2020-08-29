@@ -69,25 +69,23 @@
 
 /* animações */
 
-[data-anime] {
-    opacity: 0;
-  }
-  
-  /* 7 CSS personalizado dependendo da animação desejada */
-  .fadeInDown {
-    transform: translate3d(0,-20px,0);
-  }
-  .fadeInUp {
-    transform: translate3d(0,20px,0);
-  }
-  .fadeInRight {
-    transform: translate3d(20px,0,0);
-  }
-  .fadeInLeft {
-    transform: translate3d(-20px,0,0);
-  }
+#teste{
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 5s;
+}
 
-  .anime {
-    opacity: 1;
-    transform: none;
-  }
+#teste{
+  opacity: 1;
+}
+
+/* [data-anime] {
+  opacity: 1;
+  transform: translate3d(60px, 120px, 0);
+}
+
+.anime {
+  transition: opacity 800ms, transform 800ms;
+  opacity: 1;
+  transform: translate3d(60px, -120px, 0);
+} */
