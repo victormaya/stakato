@@ -69,23 +69,17 @@
 
 /* animações */
 
-#teste{
+[data-anime] {
   opacity: 0;
-  transition-property: opacity;
-  transition-duration: 5s;
 }
 
-#teste{
-  opacity: 1;
-}
-
-/* [data-anime] {
-  opacity: 1;
-  transform: translate3d(60px, 120px, 0);
+.fadeInDown {
+  transform: translate3d(0,-20px,0);
 }
 
 .anime {
-  transition: opacity 800ms, transform 800ms;
   opacity: 1;
-  transform: translate3d(60px, -120px, 0);
-} */
+  transform: none;
+  transition: transform .8s, opacity .8s;
+}
+

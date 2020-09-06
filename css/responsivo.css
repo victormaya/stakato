@@ -41,7 +41,13 @@
     margin: 0px auto;
   }
 
+  .conteudo-curso{
+    width: 440px;
+  }
 }
+
+
+
 
 
 
@@ -133,6 +139,24 @@
     text-align: center;
     margin: 10px 0;
     width: auto;
+  }
+
+  .desc-curso{
+    flex-direction: column;
+
+  }
+
+  .desc-curso.grid-14{
+    width: 183px;
+  }
+  .desc-curso:nth-child(2){
+    flex-direction: column-reverse;
+  }
+
+  .conteudo-curso{
+    margin-top: 10px;
+    width: 183px;
+    height: auto;
   }
     
   
