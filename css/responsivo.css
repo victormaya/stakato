@@ -147,7 +147,7 @@
   }
 
   .desc-curso.grid-14{
-    width: 183px;
+    width: 100%;
   }
   .desc-curso:nth-child(2){
     flex-direction: column-reverse;
@@ -155,7 +155,7 @@
 
   .conteudo-curso{
     margin-top: 10px;
-    width: 183px;
+    width: 100%;
     height: auto;
   }
     
